@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const outputroot = path.join(__dirname, "output");
+const outputroot = path.join(__dirname, "../.", "output");
 
 
 const files = fs.readdirSync(path.join(outputroot, "profiles"));
