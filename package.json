@@ -4,7 +4,8 @@
   "description": "cms",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/convert.js"
+    "build": "node scripts/convert.js",
+    "start": "npm run build && node index.js"
   },
   "author": "",
   "license": "ISC",
