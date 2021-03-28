@@ -14,10 +14,7 @@
     ],
     "functions": {
         "index.js": {
-            "includeFiles": [
-                "content/**",
-                "output/**"
-            ]
+            "includeFiles": "content/**"
         }
     }
 }
