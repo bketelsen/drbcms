@@ -6,5 +6,11 @@
         "api/data.js": {
             "includeFiles": "content/**"
         }
-    }
+    },
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/api"
+        }
+    ]
 }
