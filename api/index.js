@@ -2,7 +2,7 @@ import data from './data.js';
 import jsonGraphqlExpress from 'json-graphql-server';
 const app = require('express')()
 
-app.use('/graphql', jsonGraphqlExpress(data));
+app.use('/api/graphql', jsonGraphqlExpress(data));
 
 
 const port = process.env.PORT || 3000;
