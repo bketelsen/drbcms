@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const m2j = require('markdown-to-json');
 
-const outputroot = path.join(__dirname, "output", "profiles");
-const inputroot = path.join(__dirname, "content", "profiles");
+const outputroot = path.join(__dirname, "../.", "output", "profiles");
+const inputroot = path.join(__dirname, "../.", "content", "profiles");
 
 const options = {
     minify: false,
