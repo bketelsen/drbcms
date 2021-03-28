@@ -4,7 +4,7 @@ const path = require('path');
 const outputroot = 'output/profiles/';
 
 
-const files = fs.readdirSync(outputroot);
+const files = fs.readdirSync(path.join(__dirname, "output", "profiles"));
 const acc = [];
 files.forEach((curr) => {
     if (curr.includes('.json')) {
