@@ -1,0 +1,16 @@
+{
+  "name": "cms",
+  "version": "0.0.1",
+  "description": "cms",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/convert.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "json-graphql-server": "^2.2.0",
+    "markdown-to-json": "^0.5.4"
+  }
+}
