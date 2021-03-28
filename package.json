@@ -4,8 +4,7 @@
   "description": "cms",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/convert.js",
-    "start": "npm run build && node index.js"
+    "vercel-build": "node scripts/convert.js"
   },
   "author": "",
   "license": "ISC",
