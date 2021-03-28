@@ -11,5 +11,13 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ]
+    ],
+    "functions": {
+        "index.js": {
+            "includeFiles": [
+                "content/**",
+                "output/**"
+            ]
+        }
+    }
 }
