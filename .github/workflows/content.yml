@@ -1,0 +1,19 @@
+on:
+  push:
+    paths:
+      - data/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Lint Data Files
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build Your Blox
+        id: build
+        uses: devrel-blox/github-action@v0.0.7
+
+      - name: Output
+        run: echo "Messages ${{ steps.build.outputs.messages }}"
