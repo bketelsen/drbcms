@@ -1,0 +1,5 @@
+base: .
+source: content
+destination: out
+templates: templates
+default_extension: .md
