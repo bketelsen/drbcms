@@ -1,12 +1,12 @@
 {
     "functions": {
         "api/index.js": {
-            "includeFiles": "output/**"
+            "maxDuration": 5
         }
     },
     "rewrites": [
         {
-            "source": "/api/(.*)",
+            "source": "/(.*)",
             "destination": "/api"
         }
     ]
