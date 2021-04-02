@@ -1,5 +1,6 @@
-base: .
-source: content
+base: content
+source: source
 destination: out
 templates: templates
+static: static
 default_extension: .md
